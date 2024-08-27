@@ -58,3 +58,13 @@ crew = Crew(
 result = crew.kickoff()
 
 print(result)
+
+
+# 파이썬을 활용한 LLM
+# 언어모델 핸들링을 하고 나서의 결과값을 자바서버에 내려줘야 한다.
+# LLM 이 만들어낸 결과값을 어떻게 자바 서버에 내려주지?
+# => REST API 의 형태로 내려주는 방법
+
+# Flask, FastAPI 뭐 사용?
+# Flask 를 사용하자
+# AI 기없의 메인 서버, AI 관련 인퍼런스(추론값) 값은 python backend 로 사용한다.
