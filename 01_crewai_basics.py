@@ -5,7 +5,7 @@ from langchain_ollama import ChatOllama
 # 뭘로 실행할지 정해주는 것
 llm = ChatOllama(
   # model 이름 넣어주기
-  model = 'phi3:3.8b',
+  model = 'llama3.1',
   # api key 를 넣어주거나 base_url을 넣어주거나.
   base_url='http://127.0.0.1:11434'
 )

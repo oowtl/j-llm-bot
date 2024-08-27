@@ -28,8 +28,9 @@ source .venv/bin/activate
 (2) ollama 를 통해서 llm 다운로드
 
 > ollama pull llama3.1
-> ollama pull phi3:3.8b
+> ollama run llama3.1
 >
+> ollama pull phi3:3.8b
 > ollama run phi3:3.8b
 
 ### 3-2. CrewAI 사용하기
