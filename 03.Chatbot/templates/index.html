@@ -118,7 +118,7 @@
       {% for message in messages %}
       <div class="message {{ message.role }}">
         {% if message.role == 'user' %}
-        <span>{{ message.text }}</span>
+        <span>{{ message.content }}</span>
         <img
           class="icon"
           src="https://cdn-icons-png.flaticon.com/512/147/147144.png"
@@ -130,7 +130,7 @@
           src="https://cdn-icons-png.flaticon.com/512/4712/4712027.png"
           alt="Bot"
         />
-        <span class="bot-response"> {{ message.text }} </span>
+        <span class="bot-response"> {{ message.content }} </span>
         {% endif %}
       </div>
       {% endfor %}
